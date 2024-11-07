@@ -42,6 +42,25 @@ public void G4_Figuras_2() {
    }
 
 
+   public void G4_Figura_4(Scanner scanner) {
+
+    System.out.println("Figura 4");
+    
+    System.out.print("Ingrese el tamaño: ");
+    int tamaño = scanner.nextInt();
+    
+    for (int i = 1; i <= tamaño; i++) {
+        for (int j = 1; j <= tamaño - i; j++) {
+            System.out.print("  "); 
+        }
+        for (int k = 1; k <= i; k++) {
+            System.out.print("* ");
+        }
+        System.out.println();
+    }
+    
+}
+
    public void G4_Figuras_7(Scanner scanner){
        int desplazamiento;
       System.out.println("Figura 07");    
@@ -59,68 +78,6 @@ public void G4_Figuras_2() {
         }
       System.out.println(" ");    
     }
-
-    public void G4_Figuras_12( Scanner scanner) {
-      int numeros;
-      System.out.println("Figura 12");    
-       System.out.println("Ingrese el numero de la extención de}l triángulo de números invertido: ");
-       numeros = scanner.nextInt();
-       System.out.println( " ");
-
-       for (int filas = 1; filas <= numeros; filas++) {                      
-           for (int columnas = 1 ; columnas <= numeros; columnas++){   
-               if (columnas <= numeros - filas + 1){
-                   System.out.print(columnas);
-               } else { 
-               System.out.print(" ");
-               }  
-       }
-       System.out.println( " ");
-   }  
-   System.out.println(" ");
-}
-
-public void G4_Figuras_17() {
-   int longitud = 5 ;
-   System.out.println("Figura 17");    
-    for (int filas = 1; filas <= longitud ; filas++) {                      
-        for (int columnas = 1 ; columnas <= longitud ; columnas++){   
-          if (filas == columnas || filas + columnas == longitud + 1) {
-            if (filas % 2 == 1) {
-              System.out.print("1");
-          } else {
-              System.out.print("0");
-          }
-      } else {
-          System.out.print(" "); 
-      }
-    }
-    System.out.println();
-} 
-System.out.println(" ");
- }
-
-
-public void G4_Figura_4(Scanner scanner) {
-
-        System.out.println("Figura 4");
-        
-        System.out.print("Ingrese el tamaño: ");
-        int tamaño = scanner.nextInt();
-        
-        for (int i = 1; i <= tamaño; i++) {
-            for (int j = 1; j <= tamaño - i; j++) {
-                System.out.print("  "); 
-            }
-            for (int k = 1; k <= i; k++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
-        
-    }
- 
-  
 
     public void G4_Figura_9(Scanner scanner) {
         System.out.println("Figura 9");
@@ -144,30 +101,69 @@ public void G4_Figura_4(Scanner scanner) {
             System.out.println();
         }
     }
-    
-    
 
-    
+    public void G4_Figuras_12( Scanner scanner) {
+      int numeros;
+      System.out.println("Figura 12");    
+       System.out.println("Ingrese el numero de la extención de}l triángulo de números invertido: ");
+       numeros = scanner.nextInt();
+       System.out.println( " ");
 
-    public void G4_Figura_14(Scanner scanner) {
-        System.out.println("Figura 14");
-        System.out.print("Introduce el número de filas para el Triángulo de Pascal: ");
-        int filas = scanner.nextInt();
+       for (int filas = 1; filas <= numeros; filas++) {                      
+           for (int columnas = 1 ; columnas <= numeros; columnas++){   
+               if (columnas <= numeros - filas + 1){
+                   System.out.print(columnas);
+               } else { 
+               System.out.print(" ");
+               }  
+       }
+       System.out.println( " ");
+   }  
+   System.out.println(" ");
+}
 
-        for (int i = 0; i < filas; i++) {
-           
-            for (int j = 0; j < filas - i; j++) {
-                System.out.print(" ");
-            }
+public void G4_Figura_14(Scanner scanner) {
+    System.out.println("Figura 14");
+    System.out.print("Introduce el número de filas para el Triángulo de Pascal: ");
+    int filas = scanner.nextInt();
 
-            int valor = 1;
-            for (int j = 0; j <= i; j++) {
-                System.out.print(valor + " ");
-                valor = valor * (i - j) / (j + 1);
-            }
-            System.out.println();
+    for (int i = 0; i < filas; i++) {
+       
+        for (int j = 0; j < filas - i; j++) {
+            System.out.print(" ");
         }
+
+        int valor = 1;
+        for (int j = 0; j <= i; j++) {
+            System.out.print(valor + " ");
+            valor = valor * (i - j) / (j + 1);
+        }
+        System.out.println();
     }
+}
+
+public void G4_Figuras_17() {
+   int longitud = 5 ;
+   System.out.println("Figura 17");    
+    for (int filas = 1; filas <= longitud ; filas++) {                      
+        for (int columnas = 1 ; columnas <= longitud ; columnas++){   
+          if (filas == columnas || filas + columnas == longitud + 1) {
+            if (filas % 2 == 1) {
+              System.out.print("1");
+          } else {
+              System.out.print("0");
+          }
+      } else {
+          System.out.print(" "); 
+      }
+    }
+    System.out.println();
+} 
+System.out.println(" ");
+ }
+
+
+
     public void G4_Figura_19(Scanner scanner){
         System.out.println("Figura 19");
         System.out.print("Introduce el número de filas para el patrón triangular: ");
@@ -189,7 +185,6 @@ public void G4_Figura_4(Scanner scanner) {
             }
             System.out.println();
         }
-
-        
     }
+
 }

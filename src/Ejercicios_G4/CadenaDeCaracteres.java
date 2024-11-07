@@ -16,7 +16,6 @@ public void G4_CadenadeCaracteres_3( Scanner scanner) {
 
    } 
 
-   
        public void G4_CadenadeCaracteres_8(Scanner scanner) {
          System.out.println("Cadena de caracteres 8"); 
         int maxIntentos = 3;
