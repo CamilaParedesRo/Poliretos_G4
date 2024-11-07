@@ -3,7 +3,8 @@ package Ejercicios_G4;
 import java.util.Scanner;
 
 public class SerieDeCaracteres {
-      public void G4_SeriesDeCaracteres_SC1 (Scanner scanner){
+
+      public void G4_SeriesDeCaracteresSC1 (Scanner scanner){
         int cantidad;
       System.out.println("Serie de caractes 01");
         System.out.println("Ingrese el numero de elementos que desea que tenga la serie: ");
@@ -19,7 +20,27 @@ public class SerieDeCaracteres {
        System.out.println(" ");
    }
 
-   public void G4_SeriesDeCaracteres_SC6_1( Scanner scanner){
+   
+   public void G4_Secuencia_CaracterS3(Scanner scanner) {
+    System.out.println("Secuencia de Caracteres S3");
+    System.out.print("Ingrese el límite de la serie S3: ");
+    int limit = scanner.nextInt(); 
+    int contador = 0;
+   
+
+    for (int numero = 2; contador < limit; numero++) {
+        if (esPrimo(numero)) {
+            for (int i = 0; i < numero; i++) {
+                System.out.print("+");
+            }
+            System.out.print(" ");
+            contador++;
+        }
+    }
+    System.out.println();
+}
+
+   public void G4_SeriesDeCaracteresSC6_1( Scanner scanner){
       int cantidad;
       System.out.println("Serie de caractes 06");
       System.out.println("Ingrese el numero de elementos que desea que tenga la serie: ");
@@ -33,7 +54,7 @@ public class SerieDeCaracteres {
 
    }
 
-   public void G4_SeriesDeCaracteres_SC6_2 (Scanner scanner){
+   public void G4_SeriesDeCaracteresSC6_2 (Scanner scanner){
       int cantidad;
       System.out.println("Serie de caractes 06");
       System.out.println("Ingrese el numero de elementos que desea que tenga la serie: ");
@@ -63,24 +84,6 @@ public class SerieDeCaracteres {
         return true;  
     }
 
-    public void G4_Secuencia_CaracterS3(Scanner scanner) {
-        System.out.println("Secuencia de Caracteres S3");
-        System.out.print("Ingrese el límite de la serie S3: ");
-        int limit = scanner.nextInt(); 
-        int contador = 0;
-       
-
-        for (int numero = 2; contador < limit; numero++) {
-            if (esPrimo(numero)) {
-                for (int i = 0; i < numero; i++) {
-                    System.out.print("+");
-                }
-                System.out.print(" ");
-                contador++;
-            }
-        }
-        System.out.println();
-    }
 
     public void G4_Secuencia_CaracterS8() {
         System.out.println("Secuencia de caracteres S8 ");

@@ -19,24 +19,7 @@ public class SerieNumerica {
        System.out.println(" ");
    }
  
-
-   public void G4_SeriesNumericas_S6(Scanner scanner){
-      System.out.println(" ");
-      System.out.println("Serie Numerica 06");
-      int a = 1, n ;
-      System.out.println("Ingrese el numero de elementos que desea que tenga la serie: ");
-      n = scanner.nextInt();
-      System.out.println(" La serie es la siguiente: ");
-      for (int i = 0; i < n; i++) {
-          System.out.print(a + " ");
-          a = a + (2*i) + 3;
-      }
-      System.out.println(" ");
-  }
-
-
-
-    public void G4_SerieNumerica_S3(Scanner scanner) {
+   public void G4_SerieNumerica_S3(Scanner scanner) {
     System.out.println("Serie numerica S3");
 
         System.out.print("Ingrese el límite de la serie S3: ");
@@ -57,6 +40,24 @@ public class SerieNumerica {
         }
         System.out.println(); 
     }
+    
+   public void G4_SeriesNumericas_S6(Scanner scanner){
+      System.out.println(" ");
+      System.out.println("Serie Numerica 06");
+      int a = 1, n ;
+      System.out.println("Ingrese el numero de elementos que desea que tenga la serie: ");
+      n = scanner.nextInt();
+      System.out.println(" La serie es la siguiente: ");
+      for (int i = 0; i < n; i++) {
+          System.out.print(a + " ");
+          a = a + (2*i) + 3;
+      }
+      System.out.println(" ");
+  }
+
+
+
+
     
     public void G4_SerieNumerica_S8(Scanner scanner) {
         System.out.println("Serie numerica S8");

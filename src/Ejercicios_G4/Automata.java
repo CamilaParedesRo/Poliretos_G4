@@ -3,6 +3,7 @@ package Ejercicios_G4;
 import java.util.Scanner;
 
 public class Automata {
+
 public static boolean validarCadena_automata1(String cadena) {
       int estado = 0; 
       for (int i = 0; i < cadena.length(); i++) {
@@ -47,9 +48,7 @@ public static boolean validarCadena_automata1(String cadena) {
    System.out.println(" ");
   } 
 
-
-
-// Automata 2
+//Automata 2
   public enum Estado {
    q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, qError
 }
