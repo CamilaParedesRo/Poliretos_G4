@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class SerieNumerica {
-    6
+    
    public void G4_SeriesNumericas_S1 (Scanner scanner){
       System.out.println("Serie Numerica 01");
       int a = 0, b =1, c = 0, n;
@@ -18,7 +18,7 @@ public class SerieNumerica {
        }
        System.out.println(" ");
    }
- }
+ 
 
    public void G4_SeriesNumericas_S6(Scanner scanner){
       System.out.println(" ");
@@ -73,3 +73,4 @@ public class SerieNumerica {
     }
 
 
+ }
