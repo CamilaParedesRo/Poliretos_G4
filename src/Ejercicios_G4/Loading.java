@@ -1,4 +1,6 @@
 package Ejercicios_G4;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Loading {
     public void G4_Loading_1() {
