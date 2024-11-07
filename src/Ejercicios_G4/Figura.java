@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Figura {
 public void G4_Figura_4(Scanner scanner) {
-        
+
+        System.out.println("Figura 4");
         
         System.out.print("Ingrese el tamaño: ");
         int tamaño = scanner.nextInt();
@@ -22,6 +23,7 @@ public void G4_Figura_4(Scanner scanner) {
     }
 
     public void G4_Figura_9(Scanner scanner) {
+        System.out.println("Figura 9");
         System.out.print("Ingrese la altura de la figura: ");
     
         int altura = scanner.nextInt();
@@ -48,6 +50,7 @@ public void G4_Figura_4(Scanner scanner) {
     
 
     public void G4_Figura_14(Scanner scanner) {
+        System.out.println("Figura 14");
         System.out.print("Introduce el número de filas para el Triángulo de Pascal: ");
         int filas = scanner.nextInt();
 
@@ -66,6 +69,7 @@ public void G4_Figura_4(Scanner scanner) {
         }
     }
     public void G4_Figura_19(Scanner scanner){
+        System.out.println("Figura 19");
         System.out.print("Introduce el número de filas para el patrón triangular: ");
         int filas = scanner.nextInt();
         

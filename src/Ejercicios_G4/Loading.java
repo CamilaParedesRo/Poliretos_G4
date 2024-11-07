@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Loading {
     public void G4_Loading_1() {
+        System.out.println("Loading 1");
         String[] rotacion = {"|", "/", "-", "\\"};
         int carga = 0;
 
@@ -24,6 +25,7 @@ public class Loading {
     }
 
     public void G4_Loading_6() {
+        System.out.println("Loading 6");
         int longitudBarra = 20;
         int progreso = 0;
 
@@ -59,6 +61,7 @@ public class Loading {
     }
 
     public void G4_Loading_11(Random random) {
+        System.out.println("Loading 1");
         int nivel = random.nextInt(51);
         StringBuilder senal = new StringBuilder();
         for (int i = 0; i < nivel; i++) {

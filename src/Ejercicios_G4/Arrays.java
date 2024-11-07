@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Arrays {
  public void G4_Areglo_1(Scanner scanner) {
+
+        System.out.println("Arreglo 1");
         
         String nombreCompleto = "Anahi Valentina Pillajo Teran";
         String[] palabras = nombreCompleto.split(" ");

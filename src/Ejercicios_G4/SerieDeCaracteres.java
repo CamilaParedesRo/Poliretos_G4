@@ -3,6 +3,7 @@ package Ejercicios_G4;
 import java.util.Scanner;
 
 public class SerieDeCaracteres {
+     
      public boolean esPrimo(int numero) {
         if (numero <= 1) {
             return false;  
@@ -16,6 +17,7 @@ public class SerieDeCaracteres {
     }
 
     public void G4_Secuencia_CaracterS3(Scanner scanner) {
+        System.out.println("Secuencia de Caracteres S3");
         System.out.print("Ingrese el límite de la serie S3: ");
         int limit = scanner.nextInt(); 
         int contador = 0;
@@ -34,7 +36,7 @@ public class SerieDeCaracteres {
     }
 
     public void G4_Secuencia_CaracterS8() {
-      
+        System.out.println("Secuencia de caracteres S8 ");
         imprimirSecuencia('a', 1);
         imprimirSecuencia('b', 3);
         imprimirSecuencia('c', 5);

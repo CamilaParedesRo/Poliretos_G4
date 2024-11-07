@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Automata {
 public void G4_Automata03(Scanner scanner) {
+        System.out.println("Automata 3");
         System.out.println("Ingresa la cadena a validar (debe seguir el patrón a+/b+/c+):");
         String entrada = scanner.nextLine();
 
@@ -16,6 +17,7 @@ public void G4_Automata03(Scanner scanner) {
     }
 
     public void G4_Automata_3(Scanner scanner) {
+        System.out.println("Automata 3.1");
         System.out.println("Ingresa la cadena a validar (debe seguir el patrón 1/0+/1*):");
         String entrada = scanner.nextLine();
 
