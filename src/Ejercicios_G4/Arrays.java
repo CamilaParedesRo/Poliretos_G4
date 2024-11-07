@@ -1,6 +1,7 @@
 package Ejercicios_G4;
 
 public class Arrays {
+    
    public void G4_Array_4() {
       System.out.println("Array 4"); 
       String nombre = "Monserrath";
